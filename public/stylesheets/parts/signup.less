@@ -1,0 +1,80 @@
+section.signup {
+  a {
+    font: 30px/1.2 'PT Sans Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .addproject {
+    vertical-align: top;
+    display: inline-block;
+    height: 200px;
+    width: 50%;
+    background: #f49100;
+    background: -moz-linear-gradient(-45deg, #f49100 0%, #e9036d 100%);
+    background: -webkit-linear-gradient(-45deg, #f49100 0%,#e9036d 100%);
+    background: linear-gradient(135deg, #f49100 0%,#e9036d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f49100', endColorstr='#e9036d',GradientType=1 );
+    text-align: right;
+
+    a {
+      padding-top: 75px;
+      margin-right: 25px;
+      text-align: left;
+      display: inline-block;
+      width: 380px;
+      height: 200px;
+      background: url('/images/proj-req-160.png') no-repeat right center;
+    }
+  }
+
+  .register {
+    vertical-align: top;
+    display: inline-block;
+    height: 200px;
+    width: 50%;
+    background: #921e83;
+    background: -moz-linear-gradient(-45deg, #921e83 0%, #2a96d4 100%);
+    background: -webkit-linear-gradient(-45deg, #921e83 0%,#2a96d4 100%);
+    background: linear-gradient(135deg, #921e83 0%,#2a96d4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#921e83', endColorstr='#2a96d4',GradientType=1 );
+
+    a {
+      padding-top: 60px;
+      padding-left: 180px;
+      display: inline-block;
+      width: 380px;
+      height: 200px;
+      background: url('/images/conf-reg-160.png') no-repeat left center;
+    }
+  }
+
+  &.little {
+    .addproject {
+      height: 80px;
+
+      a {
+        padding-top: 20px;
+        width: 300px;
+        height: 80px;
+        background: url('/images/proj-req-80.png') no-repeat right center;
+      }
+    }
+
+    .register {
+      height: 80px;
+
+      a {
+        padding-top: 20px;
+        padding-left: 100px;
+        width: 500px;
+        height: 80px;
+        background: url('/images/conf-reg-80.png') no-repeat left center;
+      }
+    }
+  }
+}
