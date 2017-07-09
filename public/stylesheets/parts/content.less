@@ -1,5 +1,5 @@
 section.content {
-  padding: 20px 0;
+  padding: 20px 0 40px;
 
   .clear{
     &:before, &:after {
@@ -14,7 +14,7 @@ section.content {
   }
 
   .hr {
-    margin: 10px auto 20px;
+    margin: 10px auto 40px;
     width: 150px;
     height: 1px;
     background: #000;
@@ -46,8 +46,10 @@ section.content {
   }
 
   .main-content {
+    padding-right: 40px;
     width: 650px;
     float: left;
+    font-size: 13px;
 
     h1, h2, h3 {
       text-align: left;
@@ -99,6 +101,30 @@ section.content {
 
     .hr {
       margin-left: 0;
+    }
+
+    table {
+      font-size: 13px;
+
+      &.calendar {
+        tr {
+          border-bottom: 1px solid #000;
+
+          td {
+            padding: 10px 0;
+            vertical-align: top;
+          }
+
+          td:first-child {
+            font-weight: bold;
+            font-size: 16px;
+          }
+
+          &:last-child {
+            border-bottom: 0 none;
+          }
+        }
+      }
     }
 
     .tags {
