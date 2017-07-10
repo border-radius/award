@@ -410,4 +410,69 @@ section.content {
       }
     }
   }
+
+  .previouslink {
+    margin: 40px 0;
+    display: inline-block;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:before {
+      margin-right: 10px;
+      content: '';
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: url('/images/larr-bl-40.png') no-repeat center center;
+      vertical-align: middle;
+    }
+  }
+
+  .sidebar .exe {
+    font-size: 20px;
+  }
+
+  .infolink {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 13px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:before {
+      margin-right: 15px;
+      content: '';
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      background: url('/images/pdf-80.png') no-repeat center center;
+      vertical-align: middle;
+    }
+  }
+
+  .videolink {
+    text-transform: uppercase;
+    text-decoration: underline;
+    white-space: nowrap;
+    font-size: 13px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:before {
+      margin-right: 15px;
+      content: '';
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      background: url('/images/video-80.png') no-repeat center center;
+      vertical-align: middle;
+    }
+  }
 }
